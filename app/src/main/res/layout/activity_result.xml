@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:id="@+id/backgroundImage"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="20dp"
+        android:layout_marginBottom="20dp"
+        android:alpha="0.3"
+        android:scaleType="fitCenter"
+        android:src="@drawable/logo" />
+
+    <TextView
+        android:id="@+id/headerTextView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#4BD4C9"
+        android:gravity="center"
+        android:padding="16dp"
+        android:text="@string/result"
+        android:textColor="#FFFFFF"
+        android:textSize="22sp"
+        android:textStyle="bold"
+        android:fontFamily="sans-serif-condensed-medium"/>
+
+    <TextView
+        android:id="@+id/totalQuestionsTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/headerTextView"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="24dp"
+        android:text="@string/total_questions_0"
+        android:fontFamily="sans-serif-condensed-medium"
+        android:textSize="16sp"/>
+
+    <TextView
+        android:id="@+id/attemptedTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/totalQuestionsTextView"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="16dp"
+        android:text="@string/attempted_0"
+        android:fontFamily="sans-serif-condensed-medium"
+        android:textSize="16sp"/>
+
+    <TextView
+        android:id="@+id/unattemptedTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/attemptedTextView"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="16dp"
+        android:text="@string/unattempted_0"
+        android:fontFamily="sans-serif-condensed-medium"
+        android:textSize="16sp"/>
+
+    <TextView
+        android:id="@+id/correctTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/unattemptedTextView"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="16dp"
+        android:text="@string/correct_0"
+        android:fontFamily="sans-serif-condensed-medium"
+        android:textSize="16sp"/>
+
+    <Button
+        android:id="@+id/attemptAgainButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/correctTextView"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="32dp"
+        android:text="@string/attempt_again"
+        android:onClick="onAttemptAgainClick"
+        android:fontFamily="sans-serif-condensed-medium"
+        />
+
+    <Button
+        android:id="@+id/homeButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/attemptAgainButton"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="16dp"
+        android:text="@string/home"
+        android:onClick="onHomeClick"
+        android:fontFamily="sans-serif-condensed-medium"
+        />
+</RelativeLayout>

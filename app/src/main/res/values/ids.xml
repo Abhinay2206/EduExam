@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item name="confirmationMessage" type="id" />
+    <item name="timerTextView" type="id" />
+    <item name="questionNumberTextView" type="id" />
+    <item name="questionTextView" type="id" />
+    <item name="prevButton" type="id" />
+    <item name="submitButton" type="id" />
+    <item name="summaryTextView" type="id" />
+</resources>

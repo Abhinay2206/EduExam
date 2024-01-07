@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">EduExam</string>
+    <string name="test">TEST</string>
+    <string name="search">Search</string>
+    <string name="_1_kotlin_basics_test">1)Kotlin Basics Test</string>
+    <string name="attempt_now">Attempt Now</string>
+    <string name="pps_test">Kotlin Basics Test</string>
+    <string name="this_test_will_be_for_15_minutes_and_consist_of_15_questions_n_n_arrange_for_stable_internet_connectivity_n_n_giving_examination_on_laptop_or_desktop_is_highly_recommended_n_n_make_sure_mobile_laptop_is_fully_charged_power_bank_for_mobile_or_ups_inverter_for_laptop_desktop_should_be_arranged_for_uninterrupted_power_supply"><![CDATA[-->This test will be for 15 minutes and consist of 15 questions.\n\n-->Arrange for stable Internet connectivity. \n\n-->Giving examination on Laptop or Desktop is highly recommended. \n\n-->Make sure mobile/laptop is fully charged. Power bank for mobile or UPS/Inverter for laptop/desktop should be arranged for uninterrupted power supply.]]></string>
+    <string name="i_confirm_that_i_am_ready_to_start_the_test">I confirm that I am ready to start the test.</string>
+    <string name="next">Next</string>
+    <string name="_15_00">15:00</string>
+    <string name="submit">Submit</string>
+    <string name="kotlin_basics_test">Kotlin Basics Test</string>
+    <string name="attempt_again">Attempt Again</string>
+    <string name="home">Home</string>
+    <string name="unattempted_0">Unattempted: 0</string>
+    <string name="attempted_0">Attempted: 0</string>
+    <string name="total_questions_0">Total Questions: 0</string>
+    <string name="result">Result</string>
+    <string name="correct_0">correct: 0</string>
+</resources>
